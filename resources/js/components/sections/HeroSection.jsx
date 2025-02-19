@@ -23,7 +23,7 @@ const itemVariants = {
 const HeroSection = () => {
     return (
         <motion.div
-            className="flex items-center w-full min-h-screen pt-[10vh] px-4 sm:px-6 md:px-10 lg:px-20"
+            className="flex items-center w-full min-h-screen pt-[10vh] px-4 sm:px-6 md:px-10 lg:px-20 bg-gray-50"
             initial="hidden"
             animate="visible"
             variants={containerVariants}
